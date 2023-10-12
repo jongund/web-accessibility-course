@@ -1,11 +1,13 @@
 #!/bin/bash
 
 USAGE="html-slides filename.xml"
+SLIDEXSL="/Users/jongunderson/Sites/web-accessibility-course/html-slides/html-slides-2.xsl"
+XSLT3="/Users/jongunderson/Sites/web-accessibility-course/node_modules/xslt3"
 
 # Check if arg is null
 if [ -n "$1" ]; then
 
-  node ../node_modules/xslt3 -s:$1 -xsl:../html-slides/html-slides-2.xsl -o:index.html
+  node $XSLT3 -s:$1 -xsl:$SLIDEXSL -o:index.html
 
 else
   echo Usage: "$USAGE"

@@ -1,32 +1,38 @@
 {
-  "name": "html-slides",
+  "name": "Web Accessibility Course",
   "version": "1.0.0",
-  "description": "Create HTML slides form XML",
-  "main": "hhtml-slides.js",
+  "description": "Create HTML slides from XML",
+  "main": "html-slides.js",
   "directories": {
     "example": "example"
   },
   "dependencies": {
-    "saxon-js": "^2.0.3",
-    "xslt3": "^2.0.3"
+    "bootstrap": "^5.3.2",
+    "nunjucks": "^3.2.4",
+    "saxon-js": "^2.5.0",
+    "xslt3": "^2.5.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illinois-dres-aitg/xml-slides.git"
+    "url": "git+https://github.com/jongund/web-accessibility-course"
   },
   "keywords": [
     "XSLT",
     "slides",
-    "HTML"
+    "HTML",
+    "Accessibility",
+    "Web Content Accessibility Guidelines",
+    "WCAG",
+    "Accessible Rich Internet Applications",
+    "ARIA"
   ],
   "author": "Jon Gunderson",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/illinois-dres-aitg/xml-slides/issues"
+    "url": "https://github.com/jongund/web-accessibility-course"
   },
-  "homepage": "https://github.com/illinois-dres-aitg/xml-slides#readme"
+  "homepage": "https://jongund.github.io/web-accessibility-course"
 }
